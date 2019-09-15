@@ -1,0 +1,27 @@
+{
+  "name": "zip-to-vip",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zaborska/zip-to-vip.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zaborska/zip-to-vip/issues"
+  },
+  "homepage": "https://github.com/zaborska/zip-to-vip#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-nunjucks-render": "^2.2.3",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-watch": "^5.0.1",
+    "node-sass": "^4.12.0"
+  }
+}
