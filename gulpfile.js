@@ -6,7 +6,7 @@ const nunjucksRender = require("gulp-nunjucks-render");
 
 // sass.compiler = require("node-sass");
 
-gulp.task("sass", function() {
+gulp.task("sass", function () {
   return gulp
     .src("./scss/**/*.scss")
     .pipe(sourcemaps.init())
@@ -15,7 +15,7 @@ gulp.task("sass", function() {
     .pipe(gulp.dest("./css/"));
 });
 
-gulp.task("template", function() {
+gulp.task("template", function () {
   return gulp
     .src("./pages/*.html")
     .pipe(
@@ -26,12 +26,12 @@ gulp.task("template", function() {
     .pipe(gulp.dest("./dist/"));
 });
 
-gulp.task("sass:watch", function() {
+gulp.task("sass:watch", function () {
   gulp.watch("./scss/**/*.scss", gulp.series("sass"));
 });
 
-gulp.task("template:watch", function() {
+gulp.task("template:watch", function () {
   gulp.watch("./pages/**/*.html", gulp.series("template"));
 });
 
-gulp.task("default", gulp.parallel("template", "template:watch"));
+gulp.task("default", gulp.parallel("sass", "sass:watch", "template", "template:watch"));

@@ -205,7 +205,8 @@ body {
 	background: #333333;
 	position: fixed;
 	bottom: 0;
-	width: 100%
+	width: 100%;
+	z-index: 99;
 }
 .wrapper .column.right .menu-bottom .icon {
 	display: none;
@@ -435,7 +436,7 @@ body {
 	font-weight: 500;
 }
 #content .page-user .about-me .block.socials .block-wrapper {
-	
+
 }
 #content .page-user .about-me .block.socials .block-wrapper .icon {
 	display: block;
