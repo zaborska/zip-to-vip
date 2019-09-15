@@ -34,7 +34,4 @@ gulp.task("template:watch", function() {
   gulp.watch("./pages/**/*.html", gulp.series("template"));
 });
 
-gulp.task(
-  "default",
-  gulp.parallel("sass", "sass:watch", "template", "template:watch")
-);
+gulp.task("default", gulp.parallel("template", "template:watch"));
