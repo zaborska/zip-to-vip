@@ -25,4 +25,41 @@
       margin-bottom: 30px;
     }
   }
+
+  .sign-up {
+    padding: 70px;
+
+    h1 {
+      font-weight: 900;
+      font-size: 80px;
+      line-height: 94px;
+      color: $color-txt-sign-up;
+      margin: 0;
+    }
+
+    .sign-up-to-be-supporter {
+      height: 386px;
+      background: $bg-sign-up-supporter;
+      border-radius: 8px;
+      padding: 31px 43px;
+      min-height: 386px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 25px;
+    }
+    .sign-up-for-free {
+      height: 386px;
+      background: $bg-sign-up-for-free;
+      border-radius: 8px;
+      padding: 31px 43px;
+      min-height: 386px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
+
+    }
+  }
 }

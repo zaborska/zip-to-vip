@@ -93,3 +93,15 @@ a.link {
   color: $text-color;
   text-decoration: none;
 }
+
+.btn-outline {
+  background: transparent;
+
+  padding: 25px 87px;
+  font-weight: 500;
+  font-size: 20px;
+  color: $color-txt-sign-up;
+  border: 3px solid $color-txt-sign-up;
+  border-radius: 86px;
+
+}

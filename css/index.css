@@ -76,6 +76,15 @@ a.link {
   color: #333333;
   text-decoration: none; }
 
+.btn-outline {
+  background: transparent;
+  padding: 25px 87px;
+  font-weight: 500;
+  font-size: 20px;
+  color: #FFFFFF;
+  border: 3px solid #FFFFFF;
+  border-radius: 86px; }
+
 .input-icon {
   position: relative; }
   .input-icon img {
@@ -860,5 +869,34 @@ body {
         margin-bottom: 20px; }
     .page-sign-in .sign-in .big-button-inline {
       margin-bottom: 30px; }
+  .page-sign-in .sign-up {
+    padding: 70px; }
+    .page-sign-in .sign-up h1 {
+      font-weight: 900;
+      font-size: 80px;
+      line-height: 94px;
+      color: #FFFFFF;
+      margin: 0; }
+    .page-sign-in .sign-up .sign-up-to-be-supporter {
+      height: 386px;
+      background: #6EB44D;
+      border-radius: 8px;
+      padding: 31px 43px;
+      min-height: 386px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 25px; }
+    .page-sign-in .sign-up .sign-up-for-free {
+      height: 386px;
+      background: #E6D966;
+      border-radius: 8px;
+      padding: 31px 43px;
+      min-height: 386px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start; }
 
 /*# sourceMappingURL=index.css.map */
