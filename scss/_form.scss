@@ -1,0 +1,26 @@
+.input-icon {
+  position: relative;
+
+  img {
+    position: absolute;
+    top: 32px;
+    left: 30px;
+  }
+}
+
+input.custom-control {
+  display: block;
+  font-size: 24px;
+  background-color: $input-bg;
+  padding: 26px 70px;
+  border: none;
+  border-radius: 8px;
+  color: $input-txt;
+
+  &::-webkit-input-placeholder,
+  &:-ms-input-placeholder,
+  &::placeholder {
+    color: $input-txt;
+  }
+
+}

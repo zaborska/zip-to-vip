@@ -1,0 +1,28 @@
+.page-sign-in {
+  background-color: $base-grey;
+  display: flex;
+  height: calc(100% - 52px);
+  padding-bottom: 72px;
+
+  .sign-in, .sign-up {
+    flex: 1;
+  }
+
+  .sign-in {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    form {
+      margin-bottom: 32px;
+
+      input {
+        margin-bottom: 20px;
+      }
+    }
+
+    .big-button-inline {
+      margin-bottom: 30px;
+    }
+  }
+}

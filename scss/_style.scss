@@ -15,26 +15,7 @@ body {
 	padding: 0;
 	height:100%;
 }
-::-webkit-input-placeholder {
-	color: #FFFFFF;
-}
-:-moz-placeholder {
-	color: #FFFFFF;
-	opacity: 1;
-}
-::-moz-placeholder {
-	color: #FFFFFF;
-	opacity: 1;
-}
-:-ms-input-placeholder {
-	color: #FFFFFF;
-}
-::-ms-input-placeholder {
-	color: #FFFFFF;
-}
-::placeholder {
-	color: #FFFFFF;
-}
+
 .clear {
 	clear: both;
 }
@@ -61,30 +42,6 @@ body {
 }
 .wrapper .column.left .buttons {
 	margin: 0px 20px;
-}
-.wrapper .column.left .buttons .big-button {
-	height: 72px;
-	width: 100%;
-	background: linear-gradient(101.67deg, #6EB44D 0%, #518B38 100%);
-	border-radius: 86px;
-	margin-bottom: 18px;
-	font-weight: 500;
-	font-size: 20px;
-	line-height: 23px;
-	display: flex;
-	align-items: center;
-	color: #FFFFFF;
-	position: relative;
-	text-decoration: none;
-}
-.wrapper .column.left .buttons .big-button span.text {
-	margin-left: 32px;
-}
-.wrapper .column.left .buttons .big-button span.icon {
-	width: 24px;
-	height: 24px;
-	right: 32px;
-	position: absolute;
 }
 .wrapper .column.left .buttons .big-button.button1 span.icon {
 	background: url(../img/pen-tool.png) no-repeat 0 0;
@@ -175,6 +132,27 @@ body {
 	color: #FFFFFF;
 	background: transparent;
 	border: none;
+
+	&::-webkit-input-placeholder {
+		color: #FFFFFF;
+	}
+	&:-moz-placeholder {
+		color: #FFFFFF;
+		opacity: 1;
+	}
+	&::-moz-placeholder {
+		color: #FFFFFF;
+		opacity: 1;
+	}
+	&:-ms-input-placeholder {
+		color: #FFFFFF;
+	}
+	&::-ms-input-placeholder {
+		color: #FFFFFF;
+	}
+	&::placeholder {
+		color: #FFFFFF;
+	}
 }
 .wrapper .column.right .content-wrapper .menu-top .search-wrapper .input-wrapper input:focus {
 	outline: none;
